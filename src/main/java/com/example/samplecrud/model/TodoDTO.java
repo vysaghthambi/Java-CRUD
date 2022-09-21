@@ -20,6 +20,7 @@ public class TodoDTO {
     @Id
     private String id;
     private String todo;
+    private String description;
     private boolean completed;
     private Date createdAt;
     private Date updatedAt;
